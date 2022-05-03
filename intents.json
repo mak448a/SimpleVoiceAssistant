@@ -1,0 +1,96 @@
+{"intents": [
+    {"tag": "greeting",
+        "patterns": ["Hello", "jello", "Good day",
+            "what's up", "hi", "whats sup", "sup",
+            "how are you doing?", "hey, what's up?",
+            "Hey sam"
+        ],
+        "responses": ["Hi!", "Hello!", "What can I do for you?"]
+    },
+    {"tag": "thanks",
+        "patterns": ["thank you!", "thanks", "thank you so much.", "thx", "tysm", "thank you very much"],
+        "responses": ["You're welcome!"]
+    },
+    {"tag": "sorry",
+        "patterns": ["sorry", "I'm sorry", "I'm really sorry."],
+        "responses": ["It's alright."]
+    },
+    {"tag": "thanks",
+        "patterns": ["thank you!", "thanks", "thank you so much.", "thx", "tysm"],
+        "responses": ["You're welcome!", "My pleasure."]
+    },
+    {"tag": "compliment",
+        "patterns": ["i like that donut", "i like your name", "that donut is nice!", "good job, saaam", "wow! that's so cool.", "that's amazing"],
+        "responses": ["Thank you!", "Thanks."]
+    },
+    {"tag": "name",
+        "patterns": ["What's your name", "Who are you", "What should I call you?"],
+        "responses": ["I'm Saaam.", "My name is Saaam."]
+    },
+    {"tag": "friend",
+        "patterns": ["are you my friend", "are you my buddy", "are we friends"],
+        "responses": ["I'm your friend!"]
+    },
+    {"tag": "howareyoudoing",
+        "patterns": ["How are you doing today", "How's your day?", "how's it going?"],
+        "responses": ["I'm doing great!"]
+    },
+
+
+
+
+
+
+    {"tag": "documents",
+        "patterns": ["open documents", "I'd like to see my documents",
+            "give me my documents", "show documents"],
+        "responses": [""]
+    },
+    {"tag": "downloads",
+        "patterns": ["open downloads", "I'd like to see my downloads",
+            "give me my downloads", "show downloads"
+        ],
+        "responses": [""]
+    },
+    {"tag": "pictures",
+        "patterns": ["open pictures", "I'd like to see my pictures",
+            "give me my pictures", "show pictures", "open photos", "show photos"
+        ],
+        "responses": [""]
+    },
+    {"tag": "discord",
+        "patterns": ["open discord", "Show my discord",
+            "give me my discord"
+        ],
+        "responses": [""]
+    },
+
+    {"tag": "pycharm",
+        "patterns": ["open pi call on", "open my code editor", "run pi call on"],
+        "responses": [""]
+    },
+
+    {"tag": "computeroff",
+        "patterns": ["turn off my computer", "turn it off", "shut down my computer"],
+        "responses": [""]
+    },
+
+
+    {"tag": "weather",
+        "patterns": ["what's the weather?", "weather", "when is sunrise", "what is the air quality", "what is the sunrise", "what is the sunset"],
+        "responses": []
+    },
+
+    {"tag": "firefox",
+        "patterns": ["open firefox",
+        "open web browser", "show firefox"],
+        "responses": []
+    },
+
+    {"tag": "quit",
+        "patterns": ["quit",
+            "fuck", "shit", "ass", "motherfucker"
+        ],
+        "responses": [""]
+    }
+]}
