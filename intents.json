@@ -88,9 +88,7 @@
     },
 
     {"tag": "quit",
-        "patterns": ["quit",
-            "fuck", "shit", "ass", "motherfucker"
-        ],
+        "patterns": ["quit"],
         "responses": [""]
     }
 ]}
